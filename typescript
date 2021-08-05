@@ -1,0 +1,9 @@
+Script started on Wed Aug  4 10:27:55 2021
+[?1034hbash-3.2$ /[K_.first("hee[Kllo")
+bash: syntax error near unexpected token `"hello"'
+bash-3.2$ _.first('hello')
+bash: syntax error near unexpected token `'hello''
+bash-3.2$ cl[K[K
+bash-3.2$ exit
+
+Script done on Wed Aug  4 10:28:37 2021

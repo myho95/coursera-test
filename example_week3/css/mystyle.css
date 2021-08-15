@@ -1,0 +1,219 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffbed5;
+  font-family: "Oxygen", sans-serif;
+}
+.card-header {
+  background-color: #b4eef8;
+  padding: 0;
+}
+#logo-img {
+  width: 150px;
+  height: 150px;
+}
+#header-elements {
+  display: inline-block;
+}
+#shop-name {
+  /* shop name's block */
+  padding: 5px;
+  margin: 30px 10px 10px 15px;
+}
+#shop-name h1 {
+  /* shop name*/
+  font-family: "MonteCarlo", cursive;
+  color: rgb(95, 95, 248);
+  font-size: 2em;
+}
+#shop-name a:hover {
+  text-decoration: none;
+}
+
+button {
+  /*heading toggle button*/
+  margin-top: 25px;
+  margin-right: 25px;
+}
+a.nav-link {
+  color: rgb(110, 110, 110);
+  text-align: center !important;
+}
+a.nav-link:hover {
+  color: rgb(196, 120, 177) !important;
+}
+
+/* telephone */
+#telephone a:hover {
+  text-decoration: none;
+  color: #923874;
+}
+#telephone a span {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(110, 110, 110);
+}
+#telephone a span:hover {
+  color: #389283;
+}
+#delivery {
+  font-size: 0.8em;
+  padding-left: 20px;
+  color: rgb(110, 110, 110);
+  font-weight: bold;
+}
+/* end of telephone */
+/* END OF HEADING */
+.img-fluid {
+  margin-top: 15px;
+  box-shadow: 0 0 10px rgb(105, 42, 89);
+  border-radius: 0.7em;
+}
+
+@media (max-width: 576px) {
+  #shop-name {
+    margin: 5px;
+  }
+  #shop-name h1 {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 767px) {
+  div.float-right {
+    /* drop-sown list*/
+    float: none !important;
+    text-align: center;
+  }
+  ul.navbar-nav:nth-child(1) {
+    border-top: 2px solid whitesmoke;
+  }
+  a.nav-link span {
+    margin-right: 5px;
+  }
+}
+
+/* .body-image img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 50px rgb(99, 85, 85);
+} */
+
+/* large media (900px and up)*/
+.row {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu-tile,
+#dogs-tile,
+#map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #923874;
+  border-radius: 0.5em;
+  box-shadow: 0 0 10px #000;
+  overflow: hidden;
+}
+#menu-tile:hover,
+#dogs-tile:hover,
+#map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+  background: url(../images/menu_cocktail.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#dogs-tile {
+  background: url(../images/my_dogs.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#menu-tile span,
+#dogs-tile span,
+#map-tile span {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+  color: rgb(242, 205, 253);
+  background-color: #000;
+  opacity: 0.4;
+}
+#menu-tile span:hover,
+#dogs-tile span:hover,
+#map-tile span:hover {
+  background-color: unset;
+  opacity: unset;
+  font-weight: bold;
+  color: rgb(102, 30, 74);
+}
+
+/* .col-12,
+.col-lg,
+.col-md,
+.col-md-12,
+col-sm-12 {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #b4eef8;
+  box-shadow: 0 0 10px #fff;
+  margin-bottom: 15px;
+  overflow: hidden;
+} */
+@media (min-width: 960px) {
+}
+@media (min-width: 768px) and (max-width: 959px) {
+  #menu-tile,
+  #dogs-tile,
+  #map-tile {
+    height: 200px;
+  }
+}
+@media (max-width: 767px) {
+  #menu-tile,
+  #dogs-tile,
+  #map-tile {
+    height: 150px;
+  }
+  .card-footer section {
+    text-align: center;
+  }
+  section hr {
+    width: 50%;
+    border-color: rgb(153, 75, 123);
+  }
+}
+/* end of body content */
+
+/* Footer */
+.card-footer .row {
+  color: rgb(255, 238, 247);
+}
+.row section > span {
+  font-size: 1.5em;
+}
+section#address > p {
+  font-size: 0.8em;
+  color: rgb(110, 110, 110);
+  line-height: 1.5em;
+}
+section#testimonials > p {
+  font-style: italic;
+  font-size: 0.9em;
+  line-height: 1.7em;
+}
+.text-center {
+  font-size: 0.9em;
+  padding: 15px;
+  color: rgb(255, 238, 247);
+}
+/* End of Footer */

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <!-- Link of fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=Palette+Mosaic&display=swap" rel="stylesheet">
+    <!-- icons link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>Dog Café</title>
+
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="card-header navbar navbar-expand-md navbar-light">
+            <div id="header-elements" class="container">
+                <!-- logo and shop's name -->
+                <a href="index.html" class="navbar-brand float-left d-none d-md-block" style="margin:0;" >
+                    <img src="images/coffee_logo_image2.png" id="logo-img" alt="Logo image">
+                </a>
+                <div id="shop-name" class="navbar-brand">
+                    <a href="index.html"><h1>Linh My's dog café</h1></a>
+                    <img src="images/dog.png" alt="icon" width="16" height="16">
+                    <span style="font-size: 0.7rem; font-weight: bolder;">Verternary Department certification</span>
+                </div>
+
+                <button id="header-button" class="navbar-toggler navbar-toggleable-sm float-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- toggle -->
+                <div class="collapse navbar-collapse float-right" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active" style="text-align: center;" >
+                            <a class="nav-link home" href="#"><span class="fas fa-home"></span><br class="d-none d-md-block">Home<span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span class="fas fa-cocktail"></span><br class="d-none d-md-block">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span class="fas fa-dog"></span><br class="d-none d-md-block">My Dogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span class="fas fa-exclamation-circle"></span><br class="d-none d-md-block">Information</a>
+                        </li>
+                    </ul>
+                    <div id="telephone" class="d-none d-md-block">
+                        <a href="tel:+84937395204"><span>0937395204</span></a>
+                        <div id="delivery">* We delivery</div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- BODY -->
+    <div class="container">
+        ​<picture class="body-image">
+            <source media="(min-width: 992px)" srcset="images/natural_lanscape.jpg" type="image/jpg ">
+            <source media="(min-width: 576px)" srcset="images/snail.jpg" type="image/jpg">
+            <source media="(max-width: 575px)" srcset="images/Sapa-natural-landscape.jpg" type="image/jpg">
+            <img src="images/coffee_logo_image2.png" class="img-fluid" style="width:100%">
+        </picture>
+
+        <div class="row justify-content-between">
+            <div class="col-12 col-sm-12 col-md col-lg">
+                <a href="#">
+                    <div id="menu-tile">
+                    <span>Menu</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-12 col-md col-lg">
+                <a href="#">
+                    <div id="dogs-tile">
+                    <span>My Dogs</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg">
+                <a href="https://goo.gl/maps/eAJotMr3bSuLDZQEA" target="_blank">
+                    <div id="map-tile">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.212732869788!2d106.71966481437043!3d10.795012492308919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529aff2892003%3A0x856b53b1af6b19f3!2sLandmark%2081!5e0!3m2!1svi!2s!4v1628851087866!5m2!1svi!2s" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <span>Map</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- END OF BODY -->
+    <!-- FOOTER -->
+    <footer class="card-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-md">
+                    <span>Hours:</span><br>
+                    Sun-Thurs: 11:15am - 10:00pm<br>
+                    Fri: 11:15am - 2:30pm<br>
+                    Saturday Closed
+                    <hr class="d-md-none">
+                </section>
+                <section id="address" class="col-md">
+                    <span>Address:</span><br>
+                    Landmark 81 Ho Chi Minh city<br>
+                    720A Dien Bien Phu steet, Binh Thanh District<br>
+                    <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+                    <hr class="d-md-none">
+                </section>
+                <section id="testimonials" class="col-md">
+                    <p>"The best pet coffee I've been to! And that's saying a lot, since I've been to many!"</p>
+                    <p>"Amazing! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+                </section>
+            </div>
+            <div class="text-center">
+                &copy; Linh My's Dog Coffee 2021
+            </div>
+        </div>
+    </footer>
+    <!-- END OF FOOTER -->
+    <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+    <!-- <a href='https://pngtree.com/so/coffee-mug-clipart'>coffee mug clipart png from pngtree.com</a> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>

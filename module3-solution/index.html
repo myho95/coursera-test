@@ -4,9 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Bootstrap 4. link and my css link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mystyles.css">
+    <!-- Gogle font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <title>Module3 solution</title>
 </head>
 <body>
-    
+    <top id="top"></top>
+    <!-- HEADER -->
+    <header>
+        <nav id="header-nav" class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <div id="restaurant-sample" class="navbar-brand">
+                    <img src="images/hamburger.png" alt="Logo">
+                    <span id="header-text">Food, LLC</span>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul id ="header-list-item" class="navbar-nav d-md-none">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#chicken-link">Chicken</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#beef-link">Beef</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#sushi-link">Sushi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+        <h1 id ="menu-title-text" class="text-center font-weight-bold">Our menu</h1>
+        <div class="row">
+            <div class="col-lg col-md">
+                <h2 id="chicken-link" class="text-center font-weight-bold">Chicken</h2></a>
+                <p>Chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken
+                    eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken
+                    eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken
+                    eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken eggs chicken.
+                    <span><a class="back-to-top" href="#top" class="d-md-none">Back to top</a></span></p>
+            </div>
+            <div class="col-lg col-md">
+                <h2 id="beef-link"class="text-center font-weight-bold">Beef</h2>
+                <p>Beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef
+                    cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef
+                    cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef cow beef.
+                    <span><a class="back-to-top" href="#top" class="d-md-none">Back to top</a></span></p>
+            </div>
+            <div class="col-lg col-md-12">
+                <h2 id="sushi-link" class="text-center font-weight-bold">Sushi</h2>
+                <p>
+                    Sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi
+                    sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi
+                    sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi sake sushi
+                    <span><a class="back-to-top" href="#top" class="d-md-none">Back to top</a></span></p>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- END OF MAIN CONTENT -->
+
+    <!-- FOOTER -->
+    <footer class="card-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-md">
+                    <span>Hours:</span><br>
+                    Sun-Thurs: 11:15am - 10:00pm<br>
+                    Fri: 11:15am - 2:30pm<br>
+                    Saturday Closed
+                    <hr class="d-md-none">
+                </section>
+                <section id="address" class="col-md">
+                    <span>Address:</span><br>
+                    Landmark 81 Ho Chi Minh city<br>
+                    720A Dien Bien Phu steet, Binh Thanh District<br>
+                    <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+                    <hr class="d-md-none">
+                </section>
+                <section id="testimonials" class="col-md">
+                    <p>"The best pet coffee I've been to! And that's saying a lot, since I've been to many!"</p>
+                    <p>"Amazing! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+                </section>
+            </div>
+            <div class="text-center">&copy; Linh My</div>
+        </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <!-- Bundles of Script links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>    
 </body>
 </html>

@@ -11,18 +11,27 @@
             return (global.alert("Ajax is not supported!"));
         }
     }
-    ajaxUtils.sendGetRequest = function (requestURL, responseHandler){
+    ajaxUtils.sendGetRequest = function (requestURL, responseHandler, isJsonResponse){
         let request = getNewRequestObject()
         request.onreadystatechange = function (){
-            handleResponse(request, responseHandler);
+            handleResponse(request, responseHandler, isJsonResponse);
         }
         request.open("GET", requestURL, true);
         request.send();
     }
 
-    function handleResponse(request, responseHandler){
+    function handleResponse(request, responseHandler, isJsonResponse){
         if (request.readyState === 4 && request.status === 200){
-            responseHandler(request)
+            // Default isJsonResponse is true
+            if (isJsonResponse == undefined){
+                isJsonResponse = true;
+            }
+            if (isJsonResponse){
+                responseHandler(JSON.parse(request.responseText))
+            }
+            else {
+                responseHandler(request.responseText)
+            }
         }
     }
     global.$ajaxUtils = ajaxUtils;

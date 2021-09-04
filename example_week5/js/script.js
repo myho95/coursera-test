@@ -13,7 +13,7 @@ function (event){
                     message += " Would you like I introduce a mlem boy for you?"
                 }
                 document.getElementById("myGreeting").innerHTML = "<h2>" + message + "</h2>";
-            });
+            }   );
         }
     );
 }

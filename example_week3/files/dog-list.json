@@ -1,0 +1,6 @@
+[
+    {"dog_name":"Chihuahua", "dog_image":"images/chihuahua.jpg", "dog_info":"Neighbor's dog"},
+    {"dog_name":"Pug", "dog_image":"images/pug.jpeg", "dog_info":"Ex-boyfriend's dog"},
+    {"dog_name":"Shiba", "dog_image":"images/shiba.jpg", "dog_info":"Boyfriend's dog"},
+    {"dog_name":"Husky", "dog_image":"images/husky.jpg", "dog_info":"A friend's dog"}
+]

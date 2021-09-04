@@ -217,3 +217,43 @@ section#testimonials > p {
   color: rgb(255, 238, 247);
 }
 /* End of Footer */
+
+/* Menu content */
+#menu-title h1 {
+  /* menu title*/
+  font-size: 2em;
+  color: rgb(224, 77, 126);
+}
+#menu-title div {
+  /* menu note*/
+  font-size: 1.5em;
+  color: rgb(155, 128, 143);
+  padding-top: 0;
+}
+
+section > div > a > div {
+  background-color: black;
+  margin-bottom: 90px;
+  position: relative;
+}
+section > div > a > div > img {
+  background-color: olive;
+}
+
+section > div > a > div span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: rgb(250, 192, 228);
+  padding: 10px;
+  background-color: rgb(141, 141, 248);
+}
+/* End of Menu content */
+
+/* My Dog Page */
+#my-dog-content {
+  text-align: center;
+}
+#my-dog-content img {
+  margin: 30px;
+}
